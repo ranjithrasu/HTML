@@ -1,0 +1,138 @@
+.top{
+    display: flex;
+    justify-content: space-between;
+    background-color: blueviolet;
+    padding: auto;
+}
+.left{
+    text-align: center;
+    padding: 5px;}
+.topnav{
+    display: flex;
+    background-color: blueviolet;
+}
+.leftnav{
+    width: 40%;
+    padding: 10px;
+}
+.leftnav button{
+    background-color: aqua;
+    border-radius: 7px;
+    margin: 5px 0px;
+}
+.rightnav{
+    width: 60%;
+    height: 500px;
+    background-image:url(image/grid12.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid{
+    text-align: center;
+}
+.mid2{
+    display: flex;
+    margin: 0px 10px;
+}
+.leftmid2{
+    width: 50%;
+    height: 300px;
+    margin: 0px 5px; 
+    background-image:url(image/grid12.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rightmid2{
+    width: 50%;
+   
+}
+.r1{
+    display: inline-block;
+    width: 49%;
+    height: 145px;
+    text-align: center;
+}
+.s1{ background-color: aqua;
+    margin-right: 7px;
+    margin-bottom: 7px;}
+.s2{margin-bottom: 7px;
+    background-color: blueviolet;}
+.s3{margin-right: 7px;
+    background-color: rgb(32, 10, 202);}
+.s4{background-color: rgb(228, 80, 211);}
+.mid3{
+    text-align: center;
+    padding: 15px 0px;}
+.mid4{display: flex;
+background-color: blueviolet;}
+.leftmid4{
+    width: 70%;
+    padding: 10px;
+}
+.rightmid4{
+    padding: 10px;
+    width: 30%;
+}
+.leftmid4 img{
+    width: 60%;
+    border: 1px solid;
+    height: 150px;
+    margin-bottom: 10px;}
+.rm1{ margin-top: 5px;
+    margin-top: 5px;
+}
+.bottom{
+    display: flex;
+}
+.bottom1{
+    width: 50%;
+}
+.bottom1 div{
+    margin-top: 5px;
+}
+.bottom button{
+    background-color: aqua;
+    border-radius: 7px;
+    width: 150px;
+}
+.bt{padding: 10px;}
+.bt h1{color: aqua;}
+.bo1{
+    height: 250px;
+    background-image:url(image/images.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;}
+    
+@media screen and (max-width:800px){
+    .top{
+        width: 100%;
+    }
+    .topnav{
+        display: block;
+    }
+    .leftnav{width: 100%;}
+    .rightnav{width: 100%;}
+    .mid{width: 100%;}
+    .mid2{
+        display: block;
+    }
+    .leftmid2{width: 100%;}
+    .rightmid2{
+        width: 100%;
+    }
+    .r1{
+        display: block;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .mid3{width: 100%;}
+    .mid4{display: block;}
+    .leftmid4{width: 100%;}
+    .rightmid4{width: 100%;}
+    .bottom{display: block;}
+    .bottom1{
+        display: block;
+        width: 100%;
+        text-align: center;}
+}
